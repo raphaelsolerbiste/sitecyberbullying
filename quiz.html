@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberbullying - Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+  <header>
+    <h1>Quiz: Você sabe sobre Cyberbullying?</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="conteudo.html">Conteúdo</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+  <main>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. Qual das opções a seguir caracteriza corretamente o bullying?</p>
+        <ul>
+          <li><label><input type="radio" name="q1" value="0" required> Uma brincadeira entre amigos que acabou em
+              mal-entendido</label></li>
+          <li><label><input type="radio" name="q1" value="1"> Um ato repetitivo, intencional e sem motivação aparente
+              que causa sofrimento</label></li>
+          <li><label><input type="radio" name="q1" value="0"> Uma agressão pontual motivada por vingança</label></li>
+          <li><label><input type="radio" name="q1" value="0"> Qualquer conflito entre colegas de sala</label></li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <p>2. Em qual situação pode haver responsabilização legal por cyberbullying?</p>
+        <ul>
+          <li><label><input type="radio" name="q2" value="0" required> Quando a vítima ignora as mensagens</label></li>
+          <li><label><input type="radio" name="q2" value="1"> Quando há repetição de ataques online que causam
+              sofrimento emocional</label></li>
+          <li><label><input type="radio" name="q2" value="0"> Somente se envolver agressão física</label></li>
+          <li><label><input type="radio" name="q2" value="0"> Apenas se houver ameaça direta de morte</label></li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <p>3. Qual das alternativas melhor representa uma pegadinha que pode confundir a identificação de bullying?</p>
+        <ul>
+          <li><label><input type="radio" name="q3" value="0" required> Zoações leves entre amigos que se divertem
+              mutuamente</label></li>
+          <li><label><input type="radio" name="q3" value="1"> Provocações constantes que continuam mesmo após pedidos
+              para parar</label></li>
+          <li><label><input type="radio" name="q3" value="0"> Situações em que os dois lados se ofendem
+              igualmente</label></li>
+          <li><label><input type="radio" name="q3" value="0"> Reclamações feitas de forma anônima</label></li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <p>4. Segundo a Lei nº 13.185/2015, o que caracteriza a intimidação sistemática?</p>
+        <ul>
+          <li><label><input type="radio" name="q4" value="1" required> Ato intencional e repetido de humilhação ou agressão sem
+              causa aparente</label></li>
+          <li><label><input type="radio" name="q4" value="0"> Discussões ocasionais e espontâneas entre colegas</label>
+          </li>
+          <li><label><input type="radio" name="q4" value="0"> Críticas construtivas feitas com boa intenção</label></li>
+          <li><label><input type="radio" name="q4" value="0"> Isolamento voluntário de estudantes</label></li>
+        </ul>
+      </div>
+
+      <div class="question">
+        <p>5. Qual das alternativas NÃO representa um motivo comum alegado por agressores no cyberbullying?</p>
+        <ul>
+          <li><label><input type="radio" name="q5" value="0" required> Vingança</label></li>
+          <li><label><input type="radio" name="q5" value="0"> Diversão</label></li>
+          <li><label><input type="radio" name="q5" value="0"> Tédio</label></li>
+          <li><label><input type="radio" name="q5" value="1"> Desejo de ajudar a vítima a se "fortalecer"</label></li>
+        </ul>
+      </div>
+      <button type="submit">Ver resultado</button>
+    </form>
+    <div id="resultado"></div>
+  </main>
+  <script src="quiz.js"></script>
+</body>
+
+</html>
